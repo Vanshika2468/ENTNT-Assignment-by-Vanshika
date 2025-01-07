@@ -1,0 +1,104 @@
+.report-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .filter-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  .filter-section label {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .filter-section select,
+.filter-section input {
+  margin-top: 5px;
+  padding: 8px 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.filter-section select:hover,
+.filter-section input:hover {
+  border-color: #007bff;
+}
+.buttonn {
+  padding: 10px 15px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+  
+  .chart-section {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  
+  .chart {
+    width: 30%;
+  }
+  
+  .activity-log {
+    margin-top: 20px;
+  }
+  
+  .activity-log table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  .activity-log th, .activity-log td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .activity-log th {
+    background-color: #f4f4f4;
+  }
+  
+  .export-buttons {
+    margin-top: 20px;
+  }
+  
+  .export-buttons button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .export-buttons button:hover {
+    background-color: #0056b3;
+  }
+  
