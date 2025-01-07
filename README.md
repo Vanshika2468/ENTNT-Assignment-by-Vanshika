@@ -14,10 +14,7 @@ Go to your GitHub repository for ConnectCal.
 Copy the repository URL.
 Open your terminal and run:
 
-git clone https://github.com/Vanshika2468/ENTNT-calendar-app
-Navigate to the project directory:
-
-cd new-app-name
+git clone https://github.com/Vanshika2468/ENTNT-Assignment-by-Vanshika
 
 3. Install Dependencies
 Run the following command to install all necessary packages:
